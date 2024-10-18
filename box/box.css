@@ -6,6 +6,10 @@
     transition: transform 0.3s;
 }
 
+.borderBox{
+    box-sizing: border-box;
+}
+
 .boxSpacing {
     width: calc(100% - 50px);
     height: auto;
