@@ -9,7 +9,7 @@
 <body class="noMargin grid gridAutoBody">
 
 	<header class="bgColorCyan flex flexBetween textCenter paddingRight20 paddingLeft20">
-		<h1 class="underline bold uppercase">Title</h1>
+		<h1 class="underline bold uppercase">title</h1>
 		<ul class="flex flexAround nowrap noDecoration noPadding heightAuto width30">
 			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien1</a></li>
 			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien2</a></li>
@@ -21,10 +21,10 @@
 	<main class="margin30">
 		
 		<div class="grid gridAutoColumn width80 marginAuto">
-			<div class="width50 heightAuto flex center">
-				<div class="bgColorWhite fitContent roundedLarge transition scaleOnHover">
+			<div class="width70 heightAuto flex center">
+				<div class="bgColorLightGray fitContent roundedLarge transition scaleOnHover padding30">
 					<h1>We need you !</h1>
-					<p class="padding10 justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<p class="padding15 justify bgColorWhite roundedMedium">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -34,16 +34,16 @@
 			</div>
 
 			<div class="width80 padding30 marginAuto bgColorLightGray roundedLarge">
-				<h1 class="width10">Formulaire</h1>
+				<h1 class="width10 textCenter width100">It's your turn !</h1>
 
 				<div class="shlagUIInput width80 marginBottom10">
-					<h1>Submit review</h1>
+					<h2>Submit review</h2>
 		            <label for="uti">User</label>
 		            <input type="text" id="uti" placeholder="Username">
 		            <textarea placeholder="Review"></textarea>
 
 		            <!-- Ajout des boutons radio -->
-			        <fieldset>
+			        <fieldset class="marginTop30">
 			            <legend>Review Type:</legend>
 			            <div>
 			                <input type="radio" id="enhancement" name="request_type" value="enhancement">
@@ -59,12 +59,13 @@
 			            </div>
 			        </fieldset>
 
-		            <select class="marginTop30">
+		            <select class="marginTop10">
 		              <option>Enhancement</option>
 		              <option>Bug report</option>
 		              <option>Other</option>
 		            </select>
-		            <input type="checkbox" id="check">
+		            
+		            <input class="marginTop30" type="checkbox" id="check">
 		            <label for="check">Public review</label>
 		            <div class="switch-label marginTop10">
 		              <div class="switch">
@@ -77,7 +78,7 @@
 			</div>
 		</div>
 
-		<div class="boxSpacing margin20 borderBox bgColorLightGray roundedMedium">
+		<div class="boxSpacing margin20 borderBox bgColorLightGray roundedMedium slideRightOnHover">
 			<h1>Informations</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -89,9 +90,19 @@
 
 
 	</main>
-	<footer class="bgColorCyan ">
-		footer
+	<footer class="bgColorCyan padding5">
+		<ul class="flex flexAround nowrap noPadding noDecoration">
+			<li class="scaleOnHover transition"><a href="" class="bold padding5">Contact Us</a></li>
+			<li class="scaleOnHover transition"><a href="" class="bold padding5">Contact Us</a></li>
+			<li class="scaleOnHover transition"><a href="" class="bold padding5">Contact Us</a></li>
+		</ul>
 	</footer>
 
 </body>
 </html>
+
+<style type="text/css">
+	html{
+		font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+</style>
