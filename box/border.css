@@ -1,0 +1,124 @@
+/* BORDER */
+
+.border {
+    border: 2px solid #000000;
+}
+
+.borderSmall {
+    border: 1px solid #000000;
+}
+
+.borderMedium {
+    border: 3px solid #000000;
+}
+
+.borderLarge {
+    border: 5px solid #000000;
+}
+
+.borderXLarge {
+    border: 8px solid #000000;
+}
+
+.borderDashed {
+    border: 2px dashed #000000;
+}
+
+.borderDotted {
+    border: 2px dotted #000000;
+}
+
+.borderDouble {
+    border: 3px double #000000;
+}
+
+.borderTop {
+    border-top: 2px solid #000000; /* Bordure en haut */
+}
+
+.borderRight {
+    border-right: 2px solid #000000; /* Bordure à droite */
+}
+
+.borderBottom {
+    border-bottom: 2px solid #000000; /* Bordure en bas */
+}
+
+.borderLeft {
+    border-left: 2px solid #000000; /* Bordure à gauche */
+}
+
+
+
+/* BORDER RADIUS */
+
+.roundedSmall {
+    border-radius: 2px; /* Coins légèrement arrondis */
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.roundedMedium {
+    border-radius: 10px; /* Coins modérément arrondis */
+}
+
+.roundedLarge {
+    border-radius: 20px; /* Coins fortement arrondis */
+}
+
+.roundedXLarge {
+    border-radius: 35px; /* Coins fortement arrondis */
+}
+
+.roundedFull {
+    border-radius: 50%; /* Coins entièrement arrondis (cercle) */
+}
+
+
+/* OUTLINE */
+
+.outline {
+    outline: 2px solid #000000;
+}
+
+.outlineSmall {
+    outline: 1px solid #000000;
+}
+
+.outlineMedium {
+    outline: 3px solid #000000;
+}
+
+.outlineLarge {
+    outline: 5px solid #000000;
+}
+
+.outlineXLarge {
+    outline: 8px solid #000000;
+}
+
+
+
+/* BOX SHADOW */
+
+.boxShadowSmall {
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+
+.boxShadow {
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.boxShadowMedium {
+    box-shadow: 0px 6px 12px rgba(0,0,0,0.4);
+}
+
+.boxShadowLarge {
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+}
+
+.boxShadowXLarge {
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+}

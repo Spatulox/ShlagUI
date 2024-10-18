@@ -1,0 +1,21 @@
+.box {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.boxSpacing {
+    width: calc(100% - 50px);
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+
+.boxHover:hover{
+	transform: scale(1.05);
+	transition: transform 0.3s;
+}
