@@ -3,64 +3,64 @@
 
 .gridAutoBodySmall {
 	min-height: 100vh;
-    grid-template-rows: 50px auto 30px; /* Lignes flexibles avec un minimum de 50px */
+    grid-template-rows: 50px auto minmax(30px, min-content); /* Lignes flexibles avec un minimum de 50px */
 }
 
 .gridAutoBody {
 	min-height: 100vh;
-    grid-template-rows: 90px auto 70px; /* Lignes flexibles avec un minimum de 100px */
+    grid-template-rows: 90px auto minmax(50px, min-content); /* Lignes flexibles avec un minimum de 100px */
 }
 
 .gridAutoBodyMedium {
 	min-height: 100vh;
-    grid-template-rows: 100px 1fr 80px; /* Lignes flexibles avec un minimum de 200px */
+    grid-template-rows: 100px 1fr minmax(80px, min-content); /* Lignes flexibles avec un minimum de 200px */
 }
 
 .gridAutoBodyLarge {
 	min-height: 100vh;
-    grid-template-rows: 150px auto 130px; /* Lignes flexibles avec un minimum de 300px */
+    grid-template-rows: 150px auto minmax(130px, min-content); /* Lignes flexibles avec un minimum de 300px */
 }
 
 .gridAutoBodyXLarge {
 	min-height: 100vh;
-    grid-template-rows: 180px auto 150px; /* Lignes flexibles avec un minimum de 300px */
+    grid-template-rows: 180px auto minmax(150px, min-content); /* Lignes flexibles avec un minimum de 300px */
 }
 
 
 /* Column */
 
-.gridAutoColumSmall{
-	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+.gridAutoColumnSmall{
+	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
 
-.gridAutoColum{
-	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+.gridAutoColumn{
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-.gridAutoColumMedium{
-	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+.gridAutoColumnMedium{
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.gridAutoColumLarge{
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+.gridAutoColumnLarge{
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 /* Row */
 
 .gridAutoRowSmall {
-    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr)); /* Lignes flexibles avec un minimum de 50px */
+    grid-template-rows: repeat(auto-fit, minmax(30px, 1fr)); /* Lignes flexibles avec un minimum de 50px */
 }
 
 .gridAutoRow {
-    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr)); /* Lignes flexibles avec un minimum de 100px */
+    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr)); /* Lignes flexibles avec un minimum de 100px */
 }
 
 .gridAutoRowMedium {
-    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr)); /* Lignes flexibles avec un minimum de 200px */
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); /* Lignes flexibles avec un minimum de 200px */
 }
 
 .gridAutoRowLarge {
-    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr)); /* Lignes flexibles avec un minimum de 300px */
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr)); /* Lignes flexibles avec un minimum de 300px */
 }
 
 
