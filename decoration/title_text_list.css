@@ -16,6 +16,10 @@
     list-style: inherit;
 }
 
+.fitContent{
+    height: fit-content;
+}
+
 /* TEXT DECORATION */
 
 .underline{
@@ -43,6 +47,18 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre plus forte */
 }
 
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.justify{
+    text-align: justify;
+}
+
 
 /* TEXT COLOR */
 
@@ -65,15 +81,16 @@
 
 /* TEXT ALIGN */
 
-.textRight, .textStart, .titleRight, .titleStart{
+.textRight, .textStart, .titleRight, .titleStart, .right{
     text-align: right;
 }
 
-.textCenter, .titleCenter{
+.textCenter, .titleCenter, .center{
     text-align: center;
+    align-items: center;
 }
 
-.textLeft, .textEnd, .titleLeft, .titleEnd{
+.textLeft, .textEnd, .titleLeft, .titleEnd, .left{
     text-align: left;
 }
 
