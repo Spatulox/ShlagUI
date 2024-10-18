@@ -1,0 +1,106 @@
+
+/* ANIMATION SCALE */
+
+.scaleOnHoverSmall:hover{
+    transform: scale(0.95);
+    transition: transform 0.3s;
+}
+
+.scaleOnHover:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.scaleOnHoverMedium:hover{
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}
+
+.scaleOnHoverLarge:hover{
+    transform: scale(1.25);
+    transition: transform 0.8s;
+}
+
+.scaleOnHoverXLarge:hover{
+    transform: scale(1.5);
+    transition: transform 1.2s;
+}
+
+/* ANIMATION FADE */
+
+.fadeOnHoverSmall:hover {
+    opacity: 0.9;
+}
+
+.fadeOnHover:hover {
+    opacity: 0.7;
+}
+
+.fadeOnHoverMedium:hover {
+    opacity: 0.5;
+}
+
+.fadeOnHoverLarge:hover {
+    opacity: 0.3;
+}
+
+.fadeOnHoverXLarge:hover {
+    opacity: 0.1;
+}
+
+/* ANIMATION LIFT */
+
+.liftOnHoverSmall:hover {
+    transform: translateY(-2px);
+}
+
+.liftOnHover:hover {
+    transform: translateY(-5px);
+}
+
+.liftOnHoverMedium:hover {
+    transform: translateY(-8px);
+}
+
+.liftOnHoverLarge:hover {
+    transform: translateY(-10px);
+}
+
+.liftOnHoverXLarge:hover {
+    transform: translateY(-18px);
+}
+
+
+
+/* ANIMATION SHADOW */
+
+.shadowOnHover:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.shadowBottomLeftOnHover:hover {
+    box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ANIMATION SLIDE */
+
+.slideInOnHoverSmall:hover {
+    transform: translateX(5px);
+}
+
+.slideInOnHover:hover {
+    transform: translateX(10px);
+}
+
+.slideInOnHoverMedium:hover {
+    transform: translateX(18px);
+}
+
+.slideInOnHoverLarge:hover {
+    transform: translateX(25px);
+}
+
+.slideInOnHoverXLarge:hover {
+    transform: translateX(50px);
+}

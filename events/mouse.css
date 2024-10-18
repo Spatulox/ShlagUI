@@ -1,0 +1,64 @@
+.cursorAuto{
+    cursor: auto;
+}
+
+.cursorDefault{
+    cursor: default;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}
+
+.cursorText{
+    cursor: text;
+}
+
+.cursorWait{
+    cursor: wait;
+}
+
+.cursorNotAllowed{
+    cursor: not-allowed;
+}
+
+.cursorInherit{
+    cursor: inherit;
+}
+
+/* CUSTOM CURSORS  */
+
+.cursorCustomAuto{
+    cursor:  var(--cursor-imgauto), auto;
+}
+
+.cursorCustomDefault{
+    cursor:  var(--cursor-imgdefault), default;
+}
+
+.cursorCustomPointer{
+    cursor:  var(--cursor-imgpointer), pointer;
+}
+
+.cursorCustomText{
+    cursor:  var(--cursor-imgtext), text;
+}
+
+.cursorWait{
+    cursor:  var(--cursor-imgwait), wait;
+}
+
+.cursorNotAllowed{
+    cursor:  var(--cursor-imgnotallaowed), not-allowed;
+}
+
+
+/* POINTER EVENT  */
+
+.noClick, .noCursorEvent, .noPointerEvent{
+    pointer-events: none;
+}
+
+.clickAuto, .cursorEventAuto, .pointerEventAuto{
+    pointer-events: auto;
+}
