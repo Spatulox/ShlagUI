@@ -1,0 +1,203 @@
+
+/* GLOBAL DECORATION */
+
+.noDecoration{
+	text-decoration: none;
+    list-style: none;
+}
+
+.noDecoration > li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.decorationAuto{
+	text-decoration: inherit;
+    list-style: inherit;
+}
+
+/* TEXT DECORATION */
+
+.underline{
+    text-decoration: underline;
+}
+
+.underlineOnHover:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cutWords{
+	text-decoration: line-through;
+}
+
+.cutWordsOnHover:hover{
+    text-decoration: line-through;
+}
+
+.textShadow, .titleShadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ombre légère */
+}
+
+.textShadowStrong, .titleShadowStrong {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre plus forte */
+}
+
+
+/* TEXT COLOR */
+
+.textBlack {
+    color: #000000; /* Noir */
+}
+
+.textWhite {
+    color: #FFFFFF; /* Blanc */
+}
+
+.textWarning {
+    color: #FFA500; /* Orange (couleur d'avertissement) */
+}
+
+.textDanger {
+    color: #FF0000; /* Rouge (couleur de danger) */
+}
+
+
+/* TEXT ALIGN */
+
+.textRight, .textStart, .titleRight, .titleStart{
+    text-align: right;
+}
+
+.textCenter, .titleCenter{
+    text-align: center;
+}
+
+.textLeft, .textEnd, .titleLeft, .titleEnd{
+    text-align: left;
+}
+
+
+
+/* TEXT WEIGHT */
+
+.bold {
+    font-weight: bold; /* Texte en gras */
+}
+
+.boldOnHover:hover {
+    font-weight: bold; /* Texte en gras */
+}
+
+.italic {
+    font-style: italic; /* Texte en italique */
+}
+
+.italicOnHover:hover {
+    font-style: italic; /* Texte en italique */
+}
+
+.light {
+    font-weight: 300; /* Texte léger */
+}
+
+.lightOnHover:hover {
+    font-weight: 300; /* Texte léger */
+}
+
+
+
+/* TEXT SIZE */
+
+.textSmall {
+    font-size: 12px; /* Petite taille de police */
+}
+
+.textMedium {
+    font-size: 16px; /* Taille de police moyenne */
+}
+
+.textLarge {
+    font-size: 20px; /* Grande taille de police */
+}
+
+.textXLarge {
+    font-size: 24px; /* Très grande taille de police */
+}
+
+.responsiveTextSmall {
+    font-size: calc(12px + 0.5vw); /* Taille responsive pour petits écrans */
+}
+
+.responsiveTextMedium {
+    font-size: calc(16px + 0.5vw); /* Taille responsive pour écrans moyens */
+}
+
+.responsiveTextLarge {
+    font-size: calc(20px + 0.5vw); /* Taille responsive pour grands écrans */
+}
+
+.responsiveTextXLarge {
+    font-size: calc(24px + 0.5vw); /* Taille responsive pour grands écrans */
+}
+
+
+
+
+/* LIST STYLE */
+
+.ulSquare ul, .ulSquare {
+    list-style-type: square; /* Change le style des puces à carré */
+}
+
+.olLetters ol, .olLetters, .olLetter ol, .olLetter {
+    list-style-type: upper-alpha; /* Change le style des numéros à lettres majuscules */
+}
+
+
+
+/* LETTERS */
+
+.letterSpacing1 {
+    letter-spacing: 1px;
+}
+
+.letterSpacing2 {
+    letter-spacing: 2px;
+}
+
+.letterSpacing3 {
+    letter-spacing: 3px;
+}
+
+.letterSpacing4 {
+    letter-spacing: 4px;
+}
+
+.letterSpacing5 {
+    letter-spacing: 5px;
+}
+
+
+
+/* LINE HEIGHT */
+
+.lineHeight1 {
+    line-height: 1; /* Hauteur de ligne */
+}
+
+.lineHeight1-2 {
+    line-height: 1.2; /* Hauteur de ligne */
+}
+
+.lineHeight1-5 {
+    line-height: 1.5; /* Hauteur de ligne */
+}
+
+.lineHeight1-7 {
+    line-height: 1.7; /* Hauteur de ligne */
+}
+
+.lineHeight2 {
+    line-height: 2; /* Hauteur de ligne */
+}
