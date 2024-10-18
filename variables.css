@@ -1,4 +1,22 @@
 /* INPUTS */
+
+:root {
+  --background-primary: #ffffff;            /*Background color of where the class is (bgColor of "shlagUIInput" class for example) */
+  --background-secondary: #f0f2f5;          /*Background color of inputs, textarea, fielset, select, slider*/
+  --text-normal: #2e3338;                   /*Default text color*/
+  --text-muted: #747f8d;                    /*Color of "not focus text"*/
+
+  --input-border-focus: #007bff;            /*Background color of borders of inputs, textarea, fielset, select on focus*/
+  --input-border-hover: #0056b3;            /*Background color of borders of inputs, textarea, fielset, select on hover*/
+  --label-text-color: #333333;              /*Background color of label*/
+  --input-bgcolor-hover: #e9ecef;           /*Background color of inputs, fildset, textarea, select, button on hover*/
+  --input-bgcolor-activated: #007bff;       /*Background color of input[type="checkbox"] in .switch class (switch button)*/
+
+  --inputbutton-bgcolor: #007bff;           /*Background color of input[type="button"] and button*/
+  --inputbutton-bgcolor-hover: #0056b3;     /*Background color of input[type="button"] and button on hover*/
+}
+
+
 .discordInput {
   --background-primary: #36393f;
   --background-secondary: #2f3136;
