@@ -1,0 +1,191 @@
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #f0f2f5;
+  --text-normal: #2e3338;
+  --text-muted: #747f8d;
+
+  --input-border-focus: #007bff; /* Couleur de la bordure au focus */
+  --input-border-hover: #0056b3; /* Couleur de la bordure au survol */
+  --label-text-color: #333333;
+  --input-bgcolor-hover: #e9ecef; /* Couleur de fond au survol */
+  --input-bgcolor-activated: #007bff; /* Couleur d'activation */
+
+  --inputbutton-bgcolor: #007bff; /* Couleur du bouton */
+  --inputbutton-bgcolor-hover: #0056b3; /* Couleur du bouton au survol */
+}
+
+input, textarea, fieldset {
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--label-text-color);
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select, fieldset {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 2px solid var(--text-muted);
+  border-radius: 0;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--input-border-focus);
+}
+
+textarea {
+  resize: vertical;
+}
+
+fieldset {
+  border-radius: 0;
+}
+
+select {
+   appearance: none;
+   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%236c757d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+   background-repeat: no-repeat;
+   background-position: right calc(1em + .5rem) center;
+   background-size: calc(1.5em + .5rem) calc(1.5em);
+   padding-right: calc(1.5em + .5rem);
+}
+
+input[type="checkbox"], input[type="radio"] {
+   margin-right: .5rem;
+}
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+   display: inline-block;
+   font-size:14px; 
+}
+
+::placeholder {
+   color: var(--text-muted);
+   opacity:.7; 
+}
+
+input:hover,
+textarea:hover,
+select:hover,
+fieldset:hover {
+   border-color: var(--input-border-hover);
+}
+
+@keyframes smoothFocus {
+   from { box-shadow: none; }
+   to { box-shadow: inset -1px -1px rgba(74,171,247,.2), inset -1px -1px rgba(74,171,247,.2); }
+}
+
+input:not([type="button"]):focus,
+textarea:focus,
+select:focus {
+   animation:smoothFocus .3s ease-out forwards; 
+}
+
+button, input[type="button"] {
+  background-color: var(--inputbutton-bgcolor);
+   cursor:pointer; 
+   border:none; 
+   padding:.75rem; 
+   font-size:.875rem; 
+   font-weight:bold; 
+   transition:.3s ease; 
+   box-shadow:.2rem .2rem .4rem rgba(0,0,0,.1);
+   border-radius: 0;
+}
+
+button:hover, input[type="button"]:hover {
+   background-color: var(--inputbutton-bgcolor-hover);
+   transform:.05s ease-in-out translateY(-2px);
+}
+
+button:active, input[type="button"]:active {
+   transform:.05s translateY(0);
+}
+
+/* SWITCH INPUT */
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e0e0e0;
+  transition: .4s;
+  border-radius: 34px;
+  pointer-events: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: var(--background-primary);
+  transition: .4s;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.switch input:checked + .slider {
+  background-color: var(--input-bgcolor-activated);
+}
+
+.switch input:focus + .slider {
+  box-shadow: 0 0 1px var(--input-bgcolor-activated);
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+.switch-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.switch-label label {
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: var(--label-text-color);
+  text-transform: none;
+  cursor: pointer;
+}
