@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="shlagUI.css">
+	<title>Testing Schlag UI</title>
+</head>
+<body class="noMargin grid gridAutoBody">
+
+	<header class="bgColorCyan flex flexBetween textCenter paddingRight20 paddingLeft20">
+		<h1 class="underline bold uppercase">Title</h1>
+		<ul class="flex flexAround nowrap noDecoration noPadding heightAuto width30">
+			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien1</a></li>
+			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien2</a></li>
+			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien3</a></li>
+			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien4</a></li>
+			<li class="padding10 cursorPointer transition scaleOnHover bgColorBlack rounded"><a href="" class="textColorWhite">Lien5</a></li>
+		</ul>
+	</header>
+	<main class="margin30">
+		
+		<div class="grid gridAutoColumn width80 marginAuto">
+			<div class="width50 heightAuto flex center">
+				<div class="bgColorWhite fitContent roundedLarge transition scaleOnHover">
+					<h1>We need you !</h1>
+					<p class="padding10 justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+
+			<div class="width80 padding30 marginAuto bgColorLightGray roundedLarge">
+				<h1 class="width10">Formulaire</h1>
+
+				<div class="shlagUIInput width80 marginBottom10">
+					<h1>Submit review</h1>
+		            <label for="uti">User</label>
+		            <input type="text" id="uti" placeholder="Username">
+		            <textarea placeholder="Review"></textarea>
+
+		            <!-- Ajout des boutons radio -->
+			        <fieldset>
+			            <legend>Review Type:</legend>
+			            <div>
+			                <input type="radio" id="enhancement" name="request_type" value="enhancement">
+			                <label for="enhancement">Enhancement</label>
+			            </div>
+			            <div>
+			                <input type="radio" id="bugReport" name="request_type" value="bugReport">
+			                <label for="bugReport">Bug report</label>
+			            </div>
+			            <div>
+			                <input type="radio" id="other" name="request_type" value="other">
+			                <label for="other">Other</label>
+			            </div>
+			        </fieldset>
+
+		            <select class="marginTop30">
+		              <option>Enhancement</option>
+		              <option>Bug report</option>
+		              <option>Other</option>
+		            </select>
+		            <input type="checkbox" id="check">
+		            <label for="check">Public review</label>
+		            <div class="switch-label marginTop10">
+		              <div class="switch">
+		                <input type="checkbox" id="mySwitch">
+		                <span class="slider"></span>
+		              </div>
+		              <label for="mySwitch">Send-me an e-mail when someone reply</label>
+		            </div>
+		        </div>
+			</div>
+		</div>
+
+		<div class="boxSpacing margin20 borderBox bgColorLightGray roundedMedium">
+			<h1>Informations</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+
+	</main>
+	<footer class="bgColorCyan ">
+		footer
+	</footer>
+
+</body>
+</html>
