@@ -1,0 +1,198 @@
+.discordInput {
+  --background-primary: #36393f;
+  --background-secondary: #2f3136;
+  --text-normal: #dcddde;
+  --text-muted: #72767d;
+
+  --input-border-focus: #4752c4;
+  --input-border-hover: #4752c4;
+  --label-text-color: #5865f2;
+  --input-bgcolor-hover: #40444b;
+  --input-bgcolor-activated: #4752c4;
+
+  --inputbutton-bgcolor: #5865f2;
+  --inputbutton-bgcolor-hover: #4752c4;
+
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: var(--background-primary);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+.discordInput input, .discordInput textarea{
+  box-sizing: border-box;
+}
+
+.discordInput label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 10px;
+  font-weight: bold;
+  color: var(--label-text-color);
+  text-transform: uppercase;
+}
+
+.discordInput input[type="text"],
+.discordInput input[type="password"],
+.discordInput textarea,
+.discordInput select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  background-color: var(--background-secondary);
+  border: none;
+  border-radius: 4px;
+  color: var(--text-normal);
+  font-size: 16px;
+}
+
+.discordInput textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.discordInput select {
+  appearance: none;
+  /* Down arrow image  */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2372767d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
+.discordInput input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.discordInput input[type="checkbox"] + label {
+  display: inline-block;
+  font-size: 14px; /* Taille normale pour le label de la case à cocher */
+}
+
+.discordInput input[type="checkbox"]:hover + label:hover {
+  cursor: pointer;
+}
+
+/* Style pour le focus */
+.discordInput input:not([type="button"]):focus,
+.discordInput textarea:focus,
+.discordInput select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--label-text-color);
+}
+
+/* Style pour le survol */
+.discordInput input:hover,
+.discordInput textarea:hover,
+.discordInput select:hover {
+  background-color: #40444b;
+}
+
+/* Style pour les placeholders */
+.discordInput ::placeholder {
+  color: var(--text-muted);
+}
+
+/* Style pour le bouton (si vous en ajoutez un) */
+.discordInput button, .discordInput input[type="button"] {
+  cursor: pointer;
+  background-color: var(--label-text-color);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.discordInput button:hover, .discordInput input[type="button"]:hover{
+    background-color: var(--inputbutton-bgcolor-hover);
+}
+
+.discordInput button:active, .discordInput input[type="button"]:active {
+  transform: scale(0.97);
+  background-color: var(--inputbutton-bgcolor-hover);
+}
+
+
+
+/* SWITCH INPUT */
+
+/* Style pour les switches */
+.discordInput .switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+.discordInput .switch input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.discordInput .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background-secondary);
+  transition: .4s;
+  border-radius: 34px;
+  pointer-events: none;
+}
+
+.discordInput .slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: var(--text-normal);
+  transition: .4s;
+  border-radius: 50%;
+}
+
+.discordInput .switch input:checked + .slider {
+  background-color: var(--inputbutton-bgcolor);
+}
+
+.discordInput .switch input:focus + .slider {
+  box-shadow: 0 0 1px var(--inputbutton-bgcolor);
+}
+
+.discordInput .switch input:checked + .slider:before {
+  transform: translateX(16px);
+}
+
+/* Style pour le label du switch */
+.discordInput .switch-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.discordInput .switch-label label {
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: var(--label-text-color);
+  text-transform: none;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.discordInput .switch:hover .slider {
+  background-color: #40444b;
+}
+
+.discordInput .switch input:checked:hover + .slider {
+  background-color: var(--input-bgcolor-activated);
+}
