@@ -27,10 +27,9 @@
 .discordInput label {
   display: block;
   margin-bottom: 4px;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
   color: var(--label-text-color);
-  text-transform: uppercase;
 }
 
 .discordInput input[type="text"],
@@ -52,6 +51,12 @@
   min-height: 80px;
 }
 
+.discordInput fieldset{
+  border-radius: 6px;
+  border-color: var(--background-secondary);
+}
+
+
 .discordInput select {
   appearance: none;
   /* Down arrow image  */
@@ -61,16 +66,16 @@
   background-size: 16px;
 }
 
-.discordInput input[type="checkbox"] {
+.discordInput input[type="checkbox"], .discordInput input[type="radio"] {
   margin-right: 8px;
 }
 
-.discordInput input[type="checkbox"] + label {
+.discordInput input[type="checkbox"] + label, .discordInput input[type="radio"] + label {
   display: inline-block;
   font-size: 14px; /* Taille normale pour le label de la case à cocher */
 }
 
-.discordInput input[type="checkbox"]:hover + label:hover {
+.discordInput input[type="checkbox"]:hover + label:hover, , .discordInput input[type="radio"]:hover + label:hover {
   cursor: pointer;
 }
 
@@ -85,8 +90,8 @@
 /* Style pour le survol */
 .discordInput input:hover,
 .discordInput textarea:hover,
-.discordInput select:hover {
-  background-color: #40444b;
+.discordInput select:hover, {
+  background-color: var(--input-bgcolor-hover);
 }
 
 /* Style pour les placeholders */
@@ -190,7 +195,7 @@
 
 /* Hover effect */
 .discordInput .switch:hover .slider {
-  background-color: #40444b;
+  background-color: var(--input-bgcolor-hover);
 }
 
 .discordInput .switch input:checked:hover + .slider {

@@ -63,6 +63,9 @@
   min-height: 100px;
 }
 
+.shlagUIInput fieldset{
+  border-radius: 6px;
+}
 
 .shlagUIInput select {
   appearance: none;
@@ -73,16 +76,16 @@
   padding-right: 40px;
 }
 
-.shlagUIInput input[type="checkbox"] {
+.shlagUIInput input[type="checkbox"], .shlagUIInput input[type="radio"] {
   margin-right: 8px;
 }
 
-.shlagUIInput input[type="checkbox"] + label {
+.shlagUIInput input[type="checkbox"] + label, .shlagUIInput input[type="radio"] + label {
   display: inline-block;
   font-size: 14px; /* Taille normale pour le label de la case à cocher */
 }
 
-.shlagUIInput input[type="checkbox"]:hover + label:hover {
+.shlagUIInput input[type="checkbox"]:hover + label:hover, .shlagUIInput input[type="radio"]:hover + label:hover {
   cursor: pointer;
 }
 
@@ -94,7 +97,8 @@
 /* Animation smooth pour le focus et le hover */
 .shlagUIInput input:hover,
 .shlagUIInput textarea:hover,
-.shlagUIInput select:hover {
+.shlagUIInput select:hover,
+.shlagUIInput fieldset:hover {
   border-color: var(--input-border-hover);
 }
 
