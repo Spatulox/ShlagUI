@@ -5,7 +5,19 @@
 }
 
 .bgColorGrey {
-    background-color: grey; /* Blanc */
+    background-color: grey;
+}
+
+.bgColorLightGrey {
+    background-color: lightgrey;
+}
+
+.bgColorGray {
+    background-color: gray;
+}
+
+.bgColorLightGray {
+    background-color: lightgray;
 }
 
 .bgColorBlack {
