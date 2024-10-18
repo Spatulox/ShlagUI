@@ -116,7 +116,8 @@ button:hover, input[type="button"]:hover {
 }
 
 button:active, input[type="button"]:active {
-   transform:.05s translateY(0);
+  transform: scale(0.97);
+   transition: background-color 0.2s, transform 0.1s;
 }
 
 /* SWITCH INPUT */
