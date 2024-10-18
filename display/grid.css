@@ -1,3 +1,32 @@
+/* Body */
+/*header / main / footer*/
+
+.gridAutoBodySmall {
+	min-height: 100vh;
+    grid-template-rows: 50px auto 30px; /* Lignes flexibles avec un minimum de 50px */
+}
+
+.gridAutoBody {
+	min-height: 100vh;
+    grid-template-rows: 90px auto 70px; /* Lignes flexibles avec un minimum de 100px */
+}
+
+.gridAutoBodyMedium {
+	min-height: 100vh;
+    grid-template-rows: 100px 1fr 80px; /* Lignes flexibles avec un minimum de 200px */
+}
+
+.gridAutoBodyLarge {
+	min-height: 100vh;
+    grid-template-rows: 150px auto 130px; /* Lignes flexibles avec un minimum de 300px */
+}
+
+.gridAutoBodyXLarge {
+	min-height: 100vh;
+    grid-template-rows: 180px auto 150px; /* Lignes flexibles avec un minimum de 300px */
+}
+
+
 /* Column */
 
 .gridAutoColumSmall{
