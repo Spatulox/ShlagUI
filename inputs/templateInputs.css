@@ -22,7 +22,7 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.templateInputs input, .templateInputs textarea{
+.templateInputs input, .templateInputs textarea, .templateInputs fieldset{
   box-sizing: border-box;
 }
 
@@ -37,7 +37,8 @@
 .templateInputs input[type="text"],
 .templateInputs input[type="password"],
 .templateInputs textarea,
-.templateInputs select {
+.templateInputs select,
+.templateInputs fieldset {
   width: 100%;
   padding: 10px 12px;
   margin-bottom: 16px;
@@ -49,10 +50,18 @@
   transition: all 0.3s ease;
 }
 
+.templateInputs input:hover,
+.templateInputs textarea:hover,
+.templateInputs select:hover,
+.templateInputs fieldset:hover {
+  border-color: var(--input-border-hover);
+}
+
 .templateInputs input[type="text"]:focus,
 .templateInputs input[type="password"]:focus,
 .templateInputs textarea:focus,
-.templateInputs select:focus {
+.templateInputs select:focus,
+.templateInputs textarea:focus {
   outline: none;
   border-color: var(--input-border-focus);
   box-shadow: 0 0 0 3px rgba(114, 137, 218, 0.1);
@@ -92,14 +101,6 @@
 .templateInputs ::placeholder {
   color: var(--text-muted);
   opacity: 0.7;
-}
-
-/* Animation smooth pour le focus et le hover */
-.templateInputs input:hover,
-.templateInputs textarea:hover,
-.templateInputs select:hover,
-.templateInputs fieldset:hover {
-  border-color: var(--input-border-hover);
 }
 
 @keyframes smoothFocus {
