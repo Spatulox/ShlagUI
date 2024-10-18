@@ -1,9 +1,5 @@
 @import url("./variables.css");
 
-@import url("./other/margin.css");
-@import url("./other/padding.css");
-@import url("./other/size.css");
-
 @import url("./display/display.css");
 @import url("./display/flex.css");
 @import url("./display/grid.css");
@@ -20,6 +16,10 @@
 @import url("./inputs/inputs.css");
 
 
-
 @import url("./color/bgColor.css");
 @import url("./color/textColor.css");
+
+/* IMPORTANT ARE LOADED AT THE END */
+@import url("./other/margin.css");
+@import url("./other/padding.css");
+@import url("./other/size.css");
