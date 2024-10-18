@@ -1,0 +1,99 @@
+/* ------------------------------------------ HEIGHT ------------------------------------------ */
+
+.heightAuto{
+    height: auto;
+}
+
+.noHeight, .height0{
+    height: 0;
+}
+
+.height10{
+    height: 10%;
+}
+
+.height20{
+    height: 20%;
+}
+
+.height30{
+    height: 30%;
+}
+
+.height40{
+    height: 40%;
+}
+
+.height50{
+    height: 50%;
+}
+
+.height60{
+    height: 60%;
+}
+
+.height70{
+    height: 70%;
+}
+
+.height80{
+    height: 80%;
+}
+
+.height90{
+    height: 90%;
+}
+
+.height100{
+    height: 100%;
+}
+
+/* ------------------------------------------ WIDTH ------------------------------------------ */
+
+.widthAuto{
+    width: auto;
+}
+
+.noWidth, .width0{
+    width: 0;
+}
+
+.width10 {
+    width: 10%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width40 {
+    width: 40%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width90 {
+    width: 90%;
+}
+/*Life is an open-source project: everyone contributes in their own way.*/
+.width100 {
+    width: 100%;
+}
