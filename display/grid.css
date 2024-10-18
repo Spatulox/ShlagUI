@@ -1,0 +1,95 @@
+/* Column */
+
+.gridAutoColumSmall{
+	grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+}
+
+.gridAutoColum{
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.gridAutoColumMedium{
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.gridAutoColumLarge{
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Row */
+
+.gridAutoRowSmall {
+    grid-template-rows: repeat(auto-fill, minmax(30px, 1fr)); /* Lignes flexibles avec un minimum de 50px */
+}
+
+.gridAutoRow {
+    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr)); /* Lignes flexibles avec un minimum de 100px */
+}
+
+.gridAutoRowMedium {
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr)); /* Lignes flexibles avec un minimum de 200px */
+}
+
+.gridAutoRowLarge {
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr)); /* Lignes flexibles avec un minimum de 300px */
+}
+
+
+
+/* GAP */
+
+.gap1{
+	gap: 1px;
+}
+
+.gap2{
+	gap: 2px;
+}
+
+.gap3{
+	gap: 3px;
+}
+
+.gap4{
+	gap: 4px;
+}
+
+.gap5{
+	gap: 5px;
+}
+
+.gap6{
+	gap: 6px;
+}
+
+.gap7{
+	gap: 7px;
+}
+
+.gap8{
+	gap: 8px;
+}
+
+.gap9{
+	gap: 9px;
+}
+
+.gap10{
+	gap: 10px;
+}
+
+.gap15 {
+    gap: 15px;
+}
+
+.gap20 {
+    gap: 20px;
+}
+
+.gap25 {
+    gap: 25px;
+}
+
+.gap30 {
+    gap: 30px;
+}
