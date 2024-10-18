@@ -1,0 +1,161 @@
+/* STANDARD */
+
+.textColorWhite {
+    color: #FFFFFF; /* Blanc */
+}
+
+.textColorBlack {
+    color: #000000; /* Noir */
+}
+
+.textColorRed {
+    color: #FF0000; /* Rouge */
+}
+
+.textColorGreen {
+    color: #00FF00; /* Vert */
+}
+
+.textColorBlue {
+    color: #0000FF; /* Bleu */
+}
+
+.textColorYellow {
+    color: #FFFF00; /* Jaune */
+}
+
+.textColorCyan {
+    color: #00FFFF; /* Cyan */
+}
+
+.textColorMagenta {
+    color: #FF00FF; /* Magenta */
+}
+
+.textColorDarkRed {
+    color: #8B0000; /* Rouge foncé */
+}
+
+.textColorDarkGreen {
+    color: #006400; /* Vert foncé */
+}
+
+.textColorDarkBlue {
+    color: #00008B; /* Bleu foncé */
+}
+
+.textColorDarkCyan {
+    color: #008B8B; /* Cyan foncé */
+}
+
+.textColorDarkMagenta {
+    color: #8B008B; /* Magenta foncé */
+}
+
+.textColorDarkOrange {
+    color: #FF8C00; /* Orange foncé */
+}
+
+.textColorDarkGray {
+    color: #A9A9A9; /* Gris foncé */
+}
+
+.textColorBlackOlive {
+    color: #3B3C36; /* Noir olive */
+}
+
+/* PASTEL */
+
+.textColorPastelPink {
+    color: #FFB3BA; /* Rose pastel */
+}
+
+.textColorPastelGreen {
+    color: #B9FBC0; /* Vert pastel */
+}
+
+.textColorPastelBlue {
+    color: #A0D3E8; /* Bleu pastel */
+}
+
+.textColorPastelYellow {
+    color: #F6E58D; /* Jaune pastel */
+}
+
+/* NEUTRAL */
+
+.textColorGray {
+    color: #808080; /* Gris */
+}
+
+.textColorLightGray {
+    color: #D3D3D3; /* Gris clair */
+}
+
+.textColorDarkGray {
+    color: #404040; /* Gris foncé */
+}
+
+.textColorBeige {
+    color: #F5F5DC; /* Beige */
+}
+
+.textColorCharcoal {
+    color: #36454F; /* Charbon (gris très foncé) */
+}
+
+.textColorSlateGray {
+    color: #708090; /* Gris ardoise */
+}
+
+.textColorDimGray {
+    color: #696969; /* Gris atténué */
+}
+
+.textColorDarkSlateGray {
+    color: #2F4F4F; /* Gris ardoise foncé */
+}
+
+/* AUTRES COULEURS */
+
+.textColorOrange {
+    color: #FFA500; /* Orange */
+}
+
+.textColorPurple {
+    color: #800080; /* Violet */
+}
+
+.textColorTeal {
+    color: #008080; /* Teal */
+}
+
+.textColorBrown {
+    color: #A52A2A; /* Marron */
+}
+
+/* ShlagUI */
+
+.textColorShlagUI-1 {
+    color: #3498db; /* Bleu clair (couleur personnalisée) */
+}
+
+.textColorShlagUI-2 {
+    color: #2ecc71; /* Vert clair (couleur personnalisée) */
+}
+
+.textColorShlagUI-3 {
+    color: #e74c3c; /* Rouge vif (couleur personnalisée) */
+}
+
+.textColorDarkShlagUI-1 {
+    color: #4B0082; /* Indigo foncé (couleur personnalisée) */
+}
+
+.textColorDarkShlagUI-2 {
+    color: #5C4033; /* Marron foncé (couleur personnalisée) */
+}
+
+.textColorDarkShlagUI-3 {
+    color: #3A3D40; /* Gris très sombre (couleur personnalisée) */
+}

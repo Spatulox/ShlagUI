@@ -1,0 +1,166 @@
+/* STANDARD */
+
+.bgColorWhite {
+    background-color: #FFFFFF; /* Blanc */
+}
+
+.bgColorBlack {
+    background-color: #000000; /* Noir */
+}
+
+.bgColorRed {
+    background-color: #FF0000; /* Rouge */
+}
+
+.bgColorGreen {
+    background-color: #00FF00; /* Vert */
+}
+
+.bgColorBlue {
+    background-color: #0000FF; /* Bleu */
+}
+
+.bgColorYellow {
+    background-color: #FFFF00; /* Jaune */
+}
+
+.bgColorCyan {
+    background-color: #00FFFF; /* Cyan */
+}
+
+.bgColorMagenta {
+    background-color: #FF00FF; /* Magenta */
+}
+
+.bgColorDarkRed {
+    background-color: #8B0000; /* Rouge foncé */
+}
+
+.bgColorDarkGreen {
+    background-color: #006400; /* Vert foncé */
+}
+
+.bgColorDarkBlue {
+    background-color: #00008B; /* Bleu foncé */
+}
+
+.bgColorDarkCyan {
+    background-color: #008B8B; /* Cyan foncé */
+}
+
+.bgColorDarkMagenta {
+    background-color: #8B008B; /* Magenta foncé */
+}
+
+.bgColorDarkOrange {
+    background-color: #FF8C00; /* Orange foncé */
+}
+
+.bgColorDarkGray {
+    background-color: #A9A9A9; /* Gris foncé */
+}
+
+.bgColorBlackOlive {
+    background-color: #3B3C36; /* Noir olive */
+}
+
+
+/* PASTEL */
+
+.bgColorPastelPink {
+    background-color: #FFB3BA; /* Rose pastel */
+}
+
+.bgColorPastelGreen {
+    background-color: #B9FBC0; /* Vert pastel */
+}
+
+.bgColorPastelBlue {
+    background-color: #A0D3E8; /* Bleu pastel */
+}
+
+.bgColorPastelYellow {
+    background-color: #F6E58D; /* Jaune pastel */
+}
+
+/* NEUTRAL */
+
+.bgColorGray {
+    background-color: #808080; /* Gris */
+}
+
+.bgColorLightGray {
+    background-color: #D3D3D3; /* Gris clair */
+}
+
+.bgColorDarkGray {
+    background-color: #404040; /* Gris foncé */
+}
+
+.bgColorBeige {
+    background-color: #F5F5DC; /* Beige */
+}
+
+.bgColorCharcoal {
+    background-color: #36454F; /* Charbon (gris très foncé) */
+}
+
+.bgColorSlateGray {
+    background-color: #708090; /* Gris ardoise */
+}
+
+.bgColorDimGray {
+    background-color: #696969; /* Gris atténué */
+}
+
+.bgColorDarkSlateGray {
+    background-color: #2F4F4F; /* Gris ardoise foncé */
+}
+
+
+
+/* */
+
+.bgColorOrange {
+    background-color: #FFA500; /* Orange */
+}
+
+.bgColorPurple {
+    background-color: #800080; /* Violet */
+}
+
+.bgColorTeal {
+    background-color: #008080; /* Teal */
+}
+
+.bgColorBrown {
+    background-color: #A52A2A; /* Marron */
+}
+
+
+/* ShlagUI */
+
+.bgColorShlagUI-1 {
+    background-color: #3498db; /* Bleu clair (couleur personnalisée) */
+}
+
+.bgColorShlagUI-2 {
+    background-color: #2ecc71; /* Vert clair (couleur personnalisée) */
+}
+
+.bgColorShlagUI-3 {
+    background-color: #e74c3c; /* Rouge vif (couleur personnalisée) */
+}
+
+.bgColorDarkShlagUI-1 {
+    background-color: #4B0082; /* Indigo foncé (couleur personnalisée) */
+}
+
+.bgColorDarkShlagUI-2 {
+    background-color: #5C4033; /* Marron foncé (couleur personnalisée) */
+}
+
+.bgColorDarkShlagUI-3 {
+    background-color: #3A3D40; /* Gris très sombre (couleur personnalisée) */
+}
+
