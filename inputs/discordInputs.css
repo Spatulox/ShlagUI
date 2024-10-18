@@ -20,7 +20,7 @@
   margin: 20px auto;
 }
 
-.discordInput input, .discordInput textarea{
+.discordInput input, .discordInput textarea, .discordInput fieldset{
   box-sizing: border-box;
 }
 
@@ -35,7 +35,8 @@
 .discordInput input[type="text"],
 .discordInput input[type="password"],
 .discordInput textarea,
-.discordInput select {
+.discordInput select,
+.discordInput fieldset {
   width: 100%;
   padding: 10px;
   margin-bottom: 16px;
@@ -82,7 +83,8 @@
 /* Style pour le focus */
 .discordInput input:not([type="button"]):focus,
 .discordInput textarea:focus,
-.discordInput select:focus {
+.discordInput select:focus,
+.discordInput fieldset:focus {
   outline: none;
   box-shadow: 0 0 0 2px var(--label-text-color);
 }
@@ -90,7 +92,8 @@
 /* Style pour le survol */
 .discordInput input:hover,
 .discordInput textarea:hover,
-.discordInput select:hover, {
+.discordInput select:hover,
+.discordInput fieldset:hover {
   background-color: var(--input-bgcolor-hover);
 }
 
@@ -102,7 +105,7 @@
 /* Style pour le bouton (si vous en ajoutez un) */
 .discordInput button, .discordInput input[type="button"] {
   cursor: pointer;
-  background-color: var(--label-text-color);
+  background-color: var(--inputbutton-bgcolor);
   color: white;
   border: none;
   padding: 10px 16px;

@@ -22,7 +22,7 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.shlagUIInput input, .shlagUIInput textarea{
+.shlagUIInput input, .shlagUIInput textarea, .shlagUIInput fieldset{
   box-sizing: border-box;
 }
 
@@ -37,7 +37,8 @@
 .shlagUIInput input[type="text"],
 .shlagUIInput input[type="password"],
 .shlagUIInput textarea,
-.shlagUIInput select {
+.shlagUIInput select,
+.shlagUIInput fieldset {
   width: 100%;
   padding: 10px 12px;
   margin-bottom: 16px;
@@ -49,10 +50,18 @@
   transition: all 0.3s ease;
 }
 
+.shlagUIInput input:hover,
+.shlagUIInput textarea:hover,
+.shlagUIInput select:hover,
+.shlagUIInput fieldset:hover {
+  border-color: var(--input-border-hover);
+}
+
 .shlagUIInput input[type="text"]:focus,
 .shlagUIInput input[type="password"]:focus,
 .shlagUIInput textarea:focus,
-.shlagUIInput select:focus {
+.shlagUIInput select:focus
+, .shlagUIInput fieldset:focus {
   outline: none;
   border-color: var(--input-border-focus);
   box-shadow: 0 0 0 3px rgba(114, 137, 218, 0.1);
@@ -94,13 +103,6 @@
   opacity: 0.7;
 }
 
-/* Animation smooth pour le focus et le hover */
-.shlagUIInput input:hover,
-.shlagUIInput textarea:hover,
-.shlagUIInput select:hover,
-.shlagUIInput fieldset:hover {
-  border-color: var(--input-border-hover);
-}
 
 @keyframes smoothFocus {
   0% { box-shadow: 0 0 0 0 rgba(114, 137, 218, 0); }
