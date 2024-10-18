@@ -1,0 +1,46 @@
+/* INPUTS */
+.discordInput {
+  --background-primary: #36393f;
+  --background-secondary: #2f3136;
+  --text-normal: #dcddde;
+  --text-muted: #72767d;
+
+  --input-border-focus: #4752c4;
+  --input-border-hover: #4752c4;
+  --label-text-color: #5865f2;
+  --input-bgcolor-hover: #40444b;
+  --input-bgcolor-activated: #4752c4;
+
+  --inputbutton-bgcolor: #5865f2;
+  --inputbutton-bgcolor-hover: #4752c4;
+}
+
+.shlagUIInput {
+  --background-primary: #ffffff;
+  --background-secondary: #f0f2f5;
+  --text-normal: #2e3338;
+  --text-muted: #747f8d;
+
+  --input-border-focus: #7289da;
+  --input-border-hover: #4752c4;
+  --label-text-color: #333333;
+  --input-bgcolor-hover: #40444b;
+  --input-bgcolor-activated: #4CAF50;
+
+  --inputbutton-bgcolor: #7289da;
+  --inputbutton-bgcolor-hover: #3ba55c;
+}
+
+
+
+
+
+/*CURSOR*/
+:root{
+    --cursor-imgauto: url("../upload.svg");
+    --cursor-imgdefault: url("../upload.svg");
+    --cursor-imgpointer: url("../upload.svg");
+    --cursor-imgtext: url("../upload.svg");
+    --cursor-imgwait: url("../upload.svg");
+    --cursor-imgnotallaowed: url("../upload.svg");
+}
