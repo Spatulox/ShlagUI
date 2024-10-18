@@ -1,0 +1,25 @@
+@import url("./variables.css");
+
+@import url("./other/margin.css");
+@import url("./other/padding.css");
+@import url("./other/size.css");
+
+@import url("./display/display.css");
+@import url("./display/flex.css");
+@import url("./display/grid.css");
+
+@import url("./decoration/title_text_list.css");
+
+@import url("./events/onHover.css");
+@import url("./events/mouse.css");
+
+@import url("./box/border.css");
+@import url("./box/box.css");
+
+
+@import url("./inputs/inputs.css");
+
+
+
+@import url("./color/bgColor.css");
+@import url("./color/textColor.css");
