@@ -5,6 +5,7 @@
 @import url("./display/grid.css");
 
 @import url("./decoration/title_text_list.css");
+@import url("./decoration/tooltip.css");
 
 @import url("./events/animationsOnHover.css");
 @import url("./events/mouse.css");
